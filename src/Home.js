@@ -127,7 +127,7 @@ const Home = () => {
                 </div>
                 <Slider {...settings}>
                     {movies.map((movie) => (
-                        <div key={movie.id} className="px-2">
+                        <div key={movie.id} className="px-1">
                             <Card
                                 id={movie.id}
                                 name={movie.title}
@@ -161,5 +161,4 @@ const Home = () => {
 };
 
 export default Home;
-
 
